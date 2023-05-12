@@ -1,8 +1,11 @@
-The objective of this project is to perform word frequency analysis.   And the results of Term frequency method and TF-IDF shows different insights. 
+# Text Analysis of Elon Musk's Tweets 
+## Overview 
+The objective of the project is to perform word frequency analysis. Different insights are shown between results of Term frequency and TF-IDF method. 
+## Data Description 
+Data is based on Twitter data of Elon Musk from 2010-2022. For analysis consider the years `2017-2021` (last 5 complete years). Each year has thousands of tweets. Assume each year to be a document (all the tweets in one year will be considered as a document)   
+Get data here: https://www.kaggle.com/datasets/ayhmrba/elon-musk-tweets-2010-2021?resource=download&select=2017.csv    
 
-Data is based on Twitter data of Elon Musk from 2010-2022. For analysis consider the years `2017-2021` (last 5 complete years). Each year has thousands of tweets. Assume each year to be a document (all the tweets in one year will be considered as a document)      
-
-## Insights of Musk's tweets from the text analysis:  
+## Results and Insights 
 1. from 2017, he likes saying "gt", which is the concept of the GT car emerged from Europe in the mid-1900s, with the goal of being both a high-performance automobile and a long-distance driver. So GT — meaning grand tourer or gran tourer — makes sense. Some hallmarks of GT models include a near-seamless merging of luxury and performance and a 2+2 design. Which makes sense that he also likes cars since he mentions tesla often in our previous analysis.
 2. in 2018, he is researching "flamethrower" which is a jet of fire(SpaceX).  
 3. in 2019, he likes to say "amp", "tesla" and "starship"(SpaceX).  
@@ -18,6 +21,4 @@ Data is based on Twitter data of Elon Musk from 2010-2022. For analysis consider
 1. Compute the term frequencies for each year. They should be normalized (scale of [0, 1]). Exclude stopwords.    
 2. Show the top 10 words (for each year) by highest value of word frequency.    
 3. Plot a histogram of word frequencies for each year     
-4. Demonstrate Zipf’s law by plotting log-log plots of word frequencies v. rank for each year 5. Use TF-IDF to calculate and show the 5 most “important” words for each        
-
-https://www.kaggle.com/datasets/ayhmrba/elon-musk-tweets-2010-2021?resource=download&select=2017.csv    
+4. Demonstrate Zipf’s law by plotting log-log plots of word frequencies v. rank for each year 5. Use TF-IDF to calculate and show the 5 most “important” words for each

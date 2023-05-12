@@ -2,7 +2,7 @@ The objective of this project is to perform word frequency analysis.   And the r
 
 Data is based on Twitter data of Elon Musk from 2010-2022. For analysis consider the years `2017-2021` (last 5 complete years). Each year has thousands of tweets. Assume each year to be a document (all the tweets in one year will be considered as a document)      
 
-## I find something interesting of Musk from the text analysis that:  
+## Insights of Musk's tweets from the text analysis:  
 1. from 2017, he likes saying "gt", which is the concept of the GT car emerged from Europe in the mid-1900s, with the goal of being both a high-performance automobile and a long-distance driver. So GT — meaning grand tourer or gran tourer — makes sense. Some hallmarks of GT models include a near-seamless merging of luxury and performance and a 2+2 design. Which makes sense that he also likes cars since he mentions tesla often in our previous analysis.
 2. in 2018, he is researching "flamethrower" which is a jet of fire(SpaceX).  
 3. in 2019, he likes to say "amp", "tesla" and "starship"(SpaceX).  
